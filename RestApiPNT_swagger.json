@@ -27,7 +27,7 @@
           "AdresaUpdate"
         ],
         "summary": "Změna údajů existující adresy",
-        "description": "Změna údajů existující adresy",
+        "description": "<b>Příklad volání:</b>\r\n<p>Curl</p>\r\n             curl -X PUT \"https://localhost:5020/api/v1/AdresaUpdate\" -H  \"accept: application/json\" -H  \"Content-Type: application/json\" -d \"{\\\"organizaceIdEx\\\":\\\"OIX_0001\\\",\\\"typAdresy\\\":\\\"Trvalá\\\",\\\"cisloCo\\\":\\\"15\\\",\\\"cisloCp\\\":\\\"263\\\",\\\"obec\\\":\\\"Plzeň\\\",\\\"castObce\\\":\\\"Bolevec\\\",\\\"mestskyObvod\\\":\\\"Plzeň 1\\\",\\\"okres\\\":\\\"Plzeň město\\\",\\\"pismenoCo\\\":\\\"a\\\",\\\"psc\\\":\\\"32300\\\",\\\"stavAdresy\\\":1,\\\"typCislaDomovniho\\\":1,\\\"ulice\\\":\\\"Nefritová\\\"}\"\r\n             <p>Request URL</p>\r\n             https://localhost:5020/api/v1/AdresaUpdate",
         "parameters": [
           {
             "name": "recordNumber",
